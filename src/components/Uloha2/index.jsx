@@ -5,5 +5,13 @@ Zadání: Po najetí myši, `onMouseEnter` na obrázek zobrazte alert s textem �
 */
 
 export const Uloha2 = () => {
-  return <img src={hradUrl} width={60} height={60} alt="hrad" />;
+  return (
+    <img
+      onMouseEnter={() => alert('„Na hradě je myš!“')}
+      src={hradUrl}
+      width={60}
+      height={60}
+      alt="hrad"
+    />
+  );
 };
