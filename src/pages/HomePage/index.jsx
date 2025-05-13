@@ -1,9 +1,10 @@
-import { Uloha1 } from "../../components/Uloha1";
-import { Uloha2 } from "../../components/Uloha2";
-import { Uloha3 } from "../../components/Uloha3";
-import { Uloha4 } from "../../components/Uloha4";
-import { ZaverecnyBonus1 } from "../../components/ZaverecnyBonus1";
-import "./style.css";
+import { Uloha1 } from '../../components/Uloha1';
+import { Uloha2 } from '../../components/Uloha2';
+import { Uloha3 } from '../../components/Uloha3';
+import { Uloha4 } from '../../components/Uloha4';
+import { ZaverecnyBonus1 } from '../../components/ZaverecnyBonus1';
+import './style.css';
+import { UkolChat } from '../../components/Uloha4';
 
 export const HomePage = () => {
   return (
@@ -32,6 +33,7 @@ export const HomePage = () => {
           <h2>Úloha 4</h2>
           <div className="content">
             <Uloha4 />
+            <UkolChat />
           </div>
         </article>
         <article>
